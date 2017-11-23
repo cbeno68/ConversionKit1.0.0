@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_weight"
+            android:icon="@drawable/ic_weight_icon"
+            android:title="@string/nav_bar_weight" />
+        <item
+            android:id="@+id/nav_temp"
+            android:icon="@drawable/ic_temp_icon"
+            android:title="@string/nav_bar_temp" />
+        <item
+            android:id="@+id/nav_distance"
+            android:icon="@drawable/ic_distance_icon"
+            android:title="@string/nav_bar_dist" />
+        <item
+            android:id="@+id/nav_main_menu"
+            android:checked="true"
+            android:icon="@drawable/ic_mainmenu_icon"
+            android:title="@string/nav_bar_mainmenu" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Conversion Kit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_weight_conversion">Weight Conversion</string>
+
+    <string name="nav_bar_weight">Weight Convert</string>
+    <string name="nav_bar_temp">Temperature Convert</string>
+    <string name="nav_bar_dist">Distance Convert</string>
+    <string name="nav_bar_mainmenu">Main Menu</string>
+
+    <string name="button_weight">Weight</string>
+    <string name="button_temp">Temperature</string>
+    <string name="button_dist">Distance</string>
+
+    <string name="textfield_Pounds2Kilograms">Pounds to Kilograms</string>
+    <string name="textfield_Kilograms2Pounds">Kilograms to Pounds</string>
+
+    <string name="spinner_prompt">Select Weight</string>
+
+    <string-array name="weight_arrays">
+        <item>Pounds (lbs)</item>
+        <item>Kilograms (kg)</item>
+        <item>Stone (UK)</item>
+        <item>Grams (g)</item>
+        <item>Ounces (oz)</item>
+        <item>Tons (US)</item>
+        <item>Metric Tons</item>
+    </string-array>
+    <string-array name="temp_arrays">
+        <item>Fahrenheit (F°)</item>
+        <item>Celsius (C°)</item>
+        <item>Kelvin (K)</item>
+    </string-array>
+    <string name="title_activity_temperature_conversion">Temperature Conversion</string>
+
+
+</resources>
